@@ -1,0 +1,281 @@
+
+body {
+		font-family: 'Cairo', sans-serif;
+		height: 100% ;
+}
+.Ex-Logo{
+	width: 16.8vw;
+	padding-bottom: 0.1vw;
+}
+	
+.nav-item {
+	color: #22B8A3;
+	padding-left: 2.48vw;
+	vertical-align: text-bottom;
+}
+.navbar-dark {
+	background-color:#22B8A3;
+
+} 
+#navbar{
+	transition: 0.4s ;
+	height: 8.6vw;
+}
+#navbar #logo {
+	transition: 0.4s;
+
+}
+
+.btn-primary{
+	background-color: #61327C;
+	border: none;
+	width: 20.4vw;
+	height: 3.4vw;
+	font-size: 110%;
+	border-radius: 500px;
+}
+.btn-primary:hover{
+	background-color:rgb(138, 74, 175);
+	border: none;
+	box-shadow: #2F455C ;
+}
+.square{
+	width:13vw; 
+	height: 13vw;
+	background-color:#22B8A3;
+	display: inline-block;
+	max-width: 175px;
+	max-height: 175px;
+
+}
+.square>img{
+	width: 6.46vw;
+}
+.square>h6{
+	font-size: 10px;
+	color: #ffffff;
+}
+	
+#Cyan{
+	color: #22B8A3;
+}
+.semi-Heading{
+	color: #61327C;
+}
+#Images{
+	width: 24vw;
+	padding-top: 5vw;
+	
+}
+.row-header {
+	margin: 0px;
+	padding: 150px 0px 0px 0px;
+}
+
+.row-content {
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	min-height: 400px;
+}
+.row-content2 {
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	min-height: 200px;
+}
+
+h1{
+	line-height: 50px;
+	color: white;
+}
+.jumbotron {
+	position: relative;
+	top: 6.5vw;
+	height:29vw ;
+	color: rgb(255, 255, 255);
+	width: 100%;
+	background-image: url(Imgs/Jumbtrone.svg);
+	background-size: cover;
+	overflow: hidden;
+}
+.jumbotron>div {
+	font-weight:400 ;
+	font-size:3.58vw ;
+}
+.jumbotron2 {
+	position: relative;
+	top: 8.55vw;
+	height:20vw ;
+	color: rgb(255, 255, 255);
+	width: 100%;
+	background-color:#61327C ;
+	background-size: cover;
+	overflow: hidden;
+}
+.jumbotron2>div {
+	font-weight:300 ;
+	font-size:3.58vw ;
+}
+.jumbotron3 {
+	position: relative;
+	height:25vw ;
+	color: rgb(255, 255, 255);
+	width: 100%;
+	background-color:#22B8A3 ;
+	background-size: cover;
+	overflow: visible;
+}
+.jumbotron3>div {
+	font-weight:300 ;
+	font-size:3.58vw ;
+}
+.jumbotron4 {
+	position: relative;
+	padding-top: 50px;
+	top: 8.55vw;
+	height:16vw ;
+	color: rgb(255, 255, 255);
+	width: 100%;
+	background-color:#22B8A3 ; 
+}
+.jumbotron4>div {
+	font-weight:300 ;
+	font-size:4vw ;
+}
+.jumbotron5 {
+	position: relative;
+	padding-top: 50px;
+	top: 8.55vw;
+	height:20vw ;
+	color: rgb(255, 255, 255);
+	width: 100%;
+	background-color:#22B8A3 ; 
+}
+.jumbotron5>div {
+	font-weight:300 ;
+	font-size:4vw ;
+	vertical-align: middle;
+}
+.jumbotron5>h6 {
+	font-weight:300 ;
+}
+.jumbotron6 {
+	position: relative;
+	padding-top: 50px;
+	top: 8.55vw;
+	height:37vw ;
+	color: rgb(255, 255, 255);
+	width: 100%;
+	background-color:#22B8A3 ; 
+}
+.jumbotron6>div {
+	font-weight:300 ;
+	font-size:4vw ;
+}
+#watch{
+	background-color: #61327C;
+	border: none;
+	width: 22vw;
+	height: 3.4vw;
+	font-size: 110%;
+	border-radius: 500px;
+}
+#watch>.btn-primary:hover{
+	background-color:rgb(138, 74, 175);
+	border: none;
+	box-shadow: #2F455C ;
+}
+#laptop{
+	width: 50vw;
+	margin-top: -10vw;
+	margin-right: 0px;
+	position: relative;
+	right: 0px;
+}
+#partners{
+	width: 55.3vw ; 
+	margin: 0 auto;
+	display: block;
+	
+}
+#emailid{
+	border-radius: 500px;
+	width: 36.8vw;
+	height:3.4vw ;
+}
+.bold{
+	font-weight:700 ;
+}
+
+.footer{
+	height: 19.21vw;
+}
+.footer2{
+	height: 27vw;
+}
+.footer3{
+	padding-left: 100px;
+
+}
+#Subscribe{
+	position: relative;
+	right: 0;
+	float: right;
+	clear: all;
+	width: 16.5vw;
+	height:3.4vw ;
+
+}
+.form-control{
+	float: right;
+}
+.cir{
+	color: #ffffff;
+ 
+}
+
+.fa-4x{
+font-size: 1.7vw;
+color: #61327C;
+}
+.fa-4x:hover{
+	color: #22B8A3;
+}
+.btn-secondary{
+	background-color: #22B8A3;
+	border: none;
+	width: 16.4vw;
+	height: 3.4vw;
+	font-size: 110%;
+	border-radius: 500px;
+}
+.btn-secondary:hover{
+	background-color:#1f9989;
+	border: none;
+	box-shadow: #2F455C ;
+}
+.footertext1{
+	color: #494949;
+}
+.footertext{
+	color: #494949;
+}
+.footertext:hover{
+	color: #000000;
+	text-decoration: none;
+}
+.FooterLogos{
+	margin: 0 auto;
+	width: 16.8vw;
+}
+.IEEE{
+	position: absolute;
+	clear: right;
+	float: right;
+	width: 10vw;
+	right:4vw;
+}
+.tems{
+	width: 17vw;
+	max-width: 400px;
+	margin-bottom: 200px;
+}
