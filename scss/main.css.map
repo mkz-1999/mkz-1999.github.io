@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,CAAC;EC6PC,SAAY,EAfV,sBAA2B;CD1OpC;;ACuFG,MAAM,EAAE,SAAS,EAAE,MAAM;ED3F7B,AAAA,MAAM,CAAC;ICoQC,SAAY,EAlFV,MAA2B;GD9KpC",
+    "sources": [
+        "main.scss",
+        "../node_modules/rfs/scss.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
