@@ -1,4 +1,3 @@
-
 body {
 		font-family: 'Cairo', sans-serif;
 		height: 100% ;
@@ -43,6 +42,9 @@ body {
 	border: none;
 	box-shadow: #2F455C ;
 }
+#boxessmall{
+	display: none;
+}
 .square{
 	width:13vw; 
 	height: 13vw;
@@ -75,7 +77,6 @@ body {
 	margin: 0px;
 	padding: 11vw 0px 0px 0px;
 }
-
 .row-content {
 	margin: 0px auto;
 	padding: 3.6vw 0px 50px 0px;
@@ -86,7 +87,6 @@ body {
 	padding: 3.6vw 0px 50px 0px;
 	min-height: 1vw;
 }
-
 h1{
 	line-height: 3.66vw;
 	color: white;
@@ -301,3 +301,165 @@ padding-top: 3vw;
 	max-width: 29vw;
 	margin-bottom: 14.64vw;
 }
+@media (max-width: 767.98px)  {
+
+	#navbar{
+		transition: 0.4s ;
+		height: 5rem;
+	}
+	#navbar #logo {
+		transition: 0.4s;
+	
+	}
+	.row{
+		text-align: center;
+	}
+
+	h1{
+		line-height: 3rem;
+		color: white;
+		font-size: 2.2rem;
+	}
+	h6{
+		font-size: 1rem;
+		line-height: 1.2rem;
+	}
+	h5{
+		font-size: 1.2rem;
+		line-height: 1.4rem;
+	}
+	h4{
+		font-size: 2rem;
+	}
+	h2{
+		font-size: 2.5rem;
+	}
+	.jumbotron {
+		position: relative;
+		top: 6.5vw;
+		height:30rem ;
+		color: rgb(255, 255, 255);
+		width: 100%;
+		background-image: url(Imgs/Jumbtrone.jpg);
+		background-size: cover;
+		overflow: hidden;
+	}
+	.jumbotron>div {
+		font-weight:400 ;
+	}
+	.jumbotron2 {
+		position: relative;
+		height:31.5rem ;
+		color: rgb(255, 255, 255);
+		width: 100%;
+		background-color:#61327C ;
+	}
+	.jumbotron2>div {
+		font-weight:300 ;
+		font-size:3.58vw ;
+	}
+	.jumbotron3 {
+		position: relative;
+		height:25vw ;
+		color: rgb(255, 255, 255);
+		width: 100%;
+		background-color:#22B8A3 ;
+		background-size: cover;
+		overflow: visible;
+	}
+	.jumbotron3>div {
+		font-weight:300 ;
+		font-size:3.58vw ;
+	}
+	.jumbotron4 {
+		position: relative;
+		padding-top: 3.6vw;
+		top: 8.55vw;
+		height:16vw ;
+		color: rgb(255, 255, 255);
+		width: 100%;
+		background-color:#22B8A3 ; 
+	}
+	.jumbotron4>div {
+		font-weight:300 ;
+		font-size:4vw ;
+	}
+	.jumbotron5 {
+		position: relative;
+		padding-top: 3.6vw;
+		top: 8.55vw;
+		height:20vw ;
+		color: rgb(255, 255, 255);
+		width: 100%;
+		background-color:#22B8A3 ; 
+	}
+	.jumbotron5>div {
+		font-weight:300 ;
+		font-size:4vw ;
+		vertical-align: middle;
+	}
+	.jumbotron5>h6 {
+		font-weight:300 ;
+	}
+	.jumbotron6 {
+		position: relative;
+		padding-top: 3.6vw;
+		top: 8.55vw;
+		height:40vw ;
+		color: rgb(255, 255, 255);
+		width: 100%;
+		background-color:#22B8A3 ; 
+	}
+	.jumbotron6>div {
+		font-weight:300 ;
+		font-size:4vw ;
+	}
+	.row-header {
+		margin: 0px;
+		margin-top:7rem ;
+	}
+	
+	.container{
+		max-width: 100%;
+		padding: 0;
+	}
+	.btn-primary{
+		background-color: #61327C;
+		border: none;
+		width: 13.5rem;
+		height: 2.3rem;
+		font-size: 110%;
+		border-radius: 500px;
+		margin-top: 1rem;
+	}
+	#boxeswd{
+		display: none;
+	}
+	#boxessmall{
+		display: inline-block;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+	}
+	.square{
+		display: inline-block;
+		width:9.5rem; 
+		height: 9.5rem;
+		background-color:#22B8A3;
+		max-width: 1000px;
+		max-height: 1000px;
+		margin: 5px 5px 0px 0 ;
+		
+	
+	}
+	.square>img{
+		width: 4.5rem ;
+		padding-top: 15px; 
+
+	}
+	.square>h6{
+		font-size: 0.6rem   ;
+		line-height: 0.8rem;
+		color: #ffffff;
+	}
+  }
