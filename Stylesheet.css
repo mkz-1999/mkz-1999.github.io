@@ -236,7 +236,7 @@ h2{
 
 }
 .footer4{
-	height: 30vw;
+	height: 33vw;
 }
 #Subscribe{
 	position: relative;
@@ -315,6 +315,15 @@ color: #61327C;
  /* --------------Mobile CSS -------------*/
  /* --------------Mobile CSS -------------*/
  
+ 
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
 @media (max-width: 767.98px)  {
 	.navbar-expand-sm{
 		background-color: #22B8A3;
@@ -549,18 +558,18 @@ color: #61327C;
 		align-items: center;
 		width: 100%;
 	}
+	#partners{
+		display: none;
+	}
 	.footer{
 		height: 22.813rem;
 	}
 	.footer2{
 		height:27rem;
 	}
-	.footer3{
-		padding-left: 7.32vw;
 	
-	}
 	.footer4{
-		height: 40rem;
+		height: 46rem;
 	}
 	#Subscribe{
 		position: relative;
@@ -651,4 +660,41 @@ color: #61327C;
 	}
   }
 
+  @media (max-width: 1000px)  {
+	nav a {
+		font-size: 0.8rem;
+		
+	}
 
+}
+@media (max-width: 400px)  {
+	nav a {
+		font-size: 0.8rem;
+		
+	}
+	h1{
+		line-height: 2rem;
+		color: white;
+		font-size: 1.5rem;
+	}
+	h6{
+		font-size: 0.9rem;
+		line-height: 1.2rem;
+	}
+	h5{
+		font-size: 1.1rem;
+		line-height: 1.4rem;
+	}
+	h4{
+		font-size: 1.2rem;
+	}
+	h2{
+		font-size: 1.2rem;
+	}
+	.footertext{
+		color: #494949;
+		font-size: 1rem;
+		line-height: 1.8rem;
+	}
+
+}
