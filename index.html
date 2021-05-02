@@ -16,6 +16,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="scss/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+
 
 
 </head>
@@ -23,15 +26,17 @@
 <body id="home">
   <!--------------------- Navigation Bar---------------------------->
 
-  <nav id="navbar" class="navbar navbar-expand-sm navbar-dark fixed-top pt-0">
-    <div class="container">
-      <a class="navbar-brand mr-auto mt-0 pt-0" href="index.html">
-        <img class="Ex-Logo" src="Logos/Logo Expanded.svg" id="logo" alt="">
-        <img class="Ex-Logo pt-2" src="Imgs/SGCLogo.svg" id="logo2" alt="" style="display: none;">
+ <nav id="navbar" class="navbar navbar-expand-sm navbar-dark fixed-top pt-0">
+    <div id="list" class="container">
+      <a class="navbar-brand mr-auto mt-0 pt-0" href="index.html " >
+        <img class="Ex-Logo verticalImgs" src="Logos/Logo Expanded.svg" id="logo" alt="">
+        <img class="Ex-Logo pt-2 verticalImgs" src="Imgs/SGCLogo.svg" id="logo2" alt="" style="display: none;">
+        <img class="Ex-Logo pt-2 br" src="Imgs/SGCLogo.svg" alt="">
 
       </a>
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#Navbar">
-        <span class="navbar-toggler-icon"></span>
+        <span><i class="bi bi-box-arrow-in-down"></i>
+        </span>
       </button>
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav ml-auto">
@@ -60,7 +65,7 @@
 
   <!--------------------- Header ---------------------------->
 
-  <section class="jumbotron justify-content-center mb-5">
+  <!-- <section class="jumbotron justify-content-center mb-5">
     <div class="container justify-content-center">
       <div class="row row-header pt-2 ">
         <div class="col-12 col-sm-12 col-md-6">
@@ -68,19 +73,32 @@
             </br> & Internet of Things </h1>
           <h1 class="bold mb-0">Expo 2020</h1>
           <h6 class="bold mb-0">12 - 16 December, 2021</h6>
-          <button type="button" class="btn btn-primary btn-sm">
+          <button type="button" class="btn btn-primary btn-sm" id="b1">
             <h5 class="bold mb-0">About the Conference</h5>
           </button>
         </div>
       </div>
     </div>
-  </section>
-
+  </section> -->
+  <div class="jumbotron ">
+    <div class="container  h-100 ">
+      <div class="row h-100 ">
+        <div class="col-12 col-sm-12 col-md-6 my-auto">
+          <h1>Global Conference on<br> Artificial Intelligence
+            </br> & Internet of Things </h1> 
+          <h1 class="bold mb-0">Expo 2020</h1>
+          <h6 class="bold mb-0">12 - 16 December, 2021</h6>
+          <button type="button" class="btn btn-primary btn-sm" id="b1">
+            <h5 class="bold mb-0">About the Conference</h5>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!--------------------- Container News---------------------------->
-  <div id="boxessmall" class="container justify-content-center ">
-
-    <!---------------------Boxes---------------------------->
+   <div id="boxessmall" class="container  justify-content-center ">
+    <div class="row-header"> 
     <div  class="row justify-content-center text-center ">
       <div class="col-xs-6">
         <div class="square">
@@ -125,12 +143,10 @@
                </div>
             </div>
           </div>
-        </div>
-
-
-      
- <div id="boxeswd" class="container justify-content-center ">
-    <div class="row row-header text-center ">
+        </div> 
+      </div>
+ <div id="boxeswd" class="container">
+    <div class="row row-header text-center h-100">
       <div class="col-12 col-sm-2">
         <div class="square p-3">
           <img src="Imgs/SQ_IEEE.svg" alt="" class="pt-1 pb-3">
@@ -174,20 +190,20 @@
 
 
 
-  </div>
+  </div> 
 
 
   <!--------------------- Second Jumbotrone---------------------------->
-  <section class="jumbotron2 justify-content-center">
-    <div class="container justify-content-center">
-      <div class="row row-content ">
-        <div class="col-12 col-sm-12 col-md-5 pt-2 pb-2">
+  <section class="jumbotron2">
+    <div class="container h-100">
+      <div class="row h-100 ">
+        <div class="col-12 col-sm-12 col-md-5 my-auto row-content">
           <h1>2021 Theme</h1>
           <h1 class="bold mb-0"> Societal Impacts
             <br> of Digital Disruption
           </h1>
         </div>
-        <div class="col-12 col-sm-12 col-md-7 pt-5 pb-0">
+        <div class="col-12 col-sm-12 col-md-7 pb-0  my-auto" id="p1">
           <h6 class="mb-0">The conference activities will be revolving around the
             technology and engineering management of the digital
             disruption and its impacts on our daily lives and how the <br> Covid-19
@@ -199,20 +215,20 @@
 
   <!--------------------- Why you should attend--------------------------->
 
-  <div class="container justify-content-center mt-5 pt-0 pb-5 mb-5">
-    <div id="about" class="row row-header">
-      <div class="col-12 col-sm-7">
+  <div class="container">
+    <div id="about" class="row row-header h-100">
+      <div class="col-12 col-sm-12 col-md-7 my-auto">
         <h1 id="Cyan" class="pb-3"> Why you should attend</h1>
-        <div>
-          <h6 class="bold semi-Heading pb-2">Bridging the Gap between Research and Implementation
+        
+          <h6 class="bold semi-Heading pb-2">Bridging the Gap between  <br class="br"> Research and Implementation
           </h6>
           <h6 class="pb-3">In the 2020 IEEE GCAIoT, you will be able to meet with people from a wide range of
             backgrounds, who you may not encounter at your workplace or institution. This is a perfect place for meeting
             with people in your field with
             whom you haven’t made contact in a while</h6>
-        </div>
+        
         <div>
-          <h6 class="bold semi-Heading pb-2">Expand your knowledge and find solutions to problems
+          <h6 class="bold semi-Heading pb-2">Expand your knowledge and <br class="br"> find solutions to problems
           </h6>
           <h6 class="pb-3">You will have the opportunity to talk to individuals such as technical managers and
             researchers, or entities like startups and universities. They may even give you advice on how to enhance
@@ -236,7 +252,7 @@
 
       </div>
 
-      <div class="col-12 col-sm-4 offset-1">
+      <div class="col-12 col-sm-4 offset-1 verticalImgs h-100 my-auto">
         <img src="Imgs/Images.png" id="Images" alt="">
       </div>
     </div>
@@ -244,10 +260,10 @@
 
 
   <!--------------------- Third Jumbotrone---------------------------->
-  <section class="jumbotron3 justify-content-center mt-5 mb-0">
-    <div class="container justify-content-center ">
-      <div class="row row-content">
-        <div class="col-12 col-sm-5 pt-2 ">
+  <section class="jumbotron3">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-12 col-sm-5  my-auto">
           <h2>IEEE GCAIoT 2020</h2>
           <h1 class="bold mb-0">A great success
             <br> in a Tough Year
@@ -256,8 +272,9 @@
             <h5 class="bold mb-0">Watch the video</h5>
           </button>
         </div>
-        <div class="col-12 col-sm-6">
-          <img src="Imgs/GC3_Web-Laptop.svg" alt="" id="laptop">
+        <div class="col-12 col-sm-6 my-auto">
+          <img src="Imgs/GC3_Web-Laptop.svg" class="verticalImgs" alt="" id="laptop">
+          <img src="Imgs/Network.svg" class="network" alt="" >
         </div>
       </div>
     </div>
@@ -265,12 +282,13 @@
 
   <!---------------------Partners--------------------------->
 
-  <div class="container justify-content-center mt-5 pt-2 mb-5">
-    <div id="about" class="row row-content">
-      <div class="col-12 col-sm-12">
+  <div class="container ">
+    <div id="about" class="row row-header h-100">
+      <div class="col-12 col-sm-12 my-auto">
         <h1 id="Cyan" class="pb-3">Partners & Sponsors</h1>
         <div>
-          <img src="Imgs/Mask Group 2.png" alt="" id="partners" class="text-center">
+          <img src="Imgs/Mask Group 2.png"  id="partners" class="text-center verticalImgs">
+          <img src="Imgs/VerticalPartners.png" alt="" id="" class="text-center network ">
         </div>
       </div>
     </div>
@@ -278,15 +296,15 @@
 
 
   <footer class="footer" style="background-color: #22B8A3;">
-    <div class="container justify-content-center">
-      <div class="row row-content">
-        <div class="col-12 col-sm-5 pt-4">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div id="padding" class="col-12 col-sm-5 my-auto">
           <h1 class=""> Don't miss a thing!</h1>
           <h4 style="color: white;" class="">
             Sign up to receive the conference updates
           </h4>
         </div>
-        <div class="col-12 offset-1 col-sm-6 pt-4">
+        <div class="col-12 col-sm-12 offset-md-1 col-md-6 pt-4 my-auto">
           <input type="email" class="form-control mb-3" id="emailid" name="emailid" placeholder="name@mymail.com">
           <button type="button" id="Subscribe" class="btn btn-primary btn-sm">
             <h5 class="bold mb-0">Subscribe</h5>
@@ -298,13 +316,13 @@
 
   </footer>
 
-  <footer class="footer" style="background-color: #61327C;">
-    <div class="container justify-content-center">
-      <div class="row row-content">
-        <div class="col-12 col-sm-6 pt-5">
+  <footer class="footer2" style="background-color: #61327C;">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-12 col-sm-6  my-auto">
           <h1 class=""> Get in Touch</h1>
         </div>
-        <div class="col-12 col-sm-3 pt-4">
+        <div class="col-12 col-sm-3 my-auto">
           <button type="button" id="Send" class="btn btn-secondary btn-sm mb-3">
             <h5 class="bold mb-0">Send a Message</h5>
           </button>
@@ -312,7 +330,7 @@
             <h5 class="bold mb-0">WhatsApp Mobile</h5>
           </button>
         </div>
-        <div class="col-12 col-sm-3 pt-4">
+        <div class="col-12 col-sm-3 my-auto">
           <div class="text-center">
             <a href="#"><span class="fa-stack fa-4x mb-2">
                 <i class="fa fa-circle fa-stack-2x cir"></i>
@@ -354,20 +372,20 @@
 
   </footer>
 
-  <footer class="footer footer2" style="background-color: #E6E7E8;">
-    <div class="container justify-content-center">
-      <div class="row">
-        <div class="col-12 col-sm-12 ffooter text-center">
+  <footer class="footer footer4" style="background-color: #E6E7E8;">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-12 col-sm-12 my-auto text-center">
           <img src="Imgs/PatLogos.svg" alt="" class="FooterLogos text-center mb-4">
-          <h6 class=" text-center mb-5"> © Copyright 2021 IEEE - All rights reserved. Use of this website signifies
+          <h6 class=" text-center mb-5 pl-4 pr-4"> © Copyright 2021 IEEE - All rights reserved. Use of this website signifies
             your agreement
             to the IEEE Terms & Conditions</h6>
           <img src="Imgs/IEEEL.png" alt="" class="IEEE">
           <h6 class="footertext1 text-center mb-5">A not-for-profit organization, IEEE is the world's largest technical
             professional organization
-            <br>dedicated to advancing technology for the benefit of humanity.
+            <br class="verticalImgs">dedicated to advancing technology for the benefit of humanity.
           </h6>
-          <h5 class="footertext text-center">
+          <h5 class="footertext text-center pl-4 pr-4">
             <div class="text-center pb-3">
               <a href="" class="footertext"> Home </a>|
               <a href="" class="footertext"> Sitemap </a>|
@@ -379,6 +397,7 @@
             </div>
           </h5>
         </div>
+      </div>
   </footer>
 
 

@@ -1,7 +1,12 @@
 body {
 		font-family: 'Cairo', sans-serif;
 		height: 100% ;
-		font-size: 1.17vw;
+}
+.br{
+	display: none;
+}
+.verticalImgs{
+	display: inline-block;
 }
 .container{
 	max-width: 80vw;
@@ -45,6 +50,10 @@ body {
 #boxessmall{
 	display: none;
 }
+.network{
+	display: none;
+
+}
 .square{
 	width:13vw; 
 	height: 13vw;
@@ -74,19 +83,14 @@ body {
 	
 }
 .row-header {
-	margin: 0px;
-	padding: 11vw 0px 0px 0px;
+	padding-top: 10vw;
+	padding-bottom: 10vw;
 }
-.row-content {
-	margin: 0px auto;
-	padding: 3.6vw 0px 50px 0px;
-	min-height: 400px;
+.row-semi{
+	padding-top: 5vw;
+	padding-bottom: 5vw;
 }
-.row-content2 {
-	margin: 0px auto;
-	padding: 3.6vw 0px 50px 0px;
-	min-height: 1vw;
-}
+
 h1{
 	line-height: 3.66vw;
 	color: white;
@@ -106,14 +110,16 @@ h2{
 	font-size: 2.2vw;
 }
 .jumbotron {
-	position: relative;
-	top: 6.5vw;
-	height:29vw ;
+	margin-top: 8.6vw;
+	height:35vw ;
 	color: rgb(255, 255, 255);
 	width: 100%;
 	background-image: url(Imgs/Jumbtrone.jpg);
 	background-size: cover;
 	overflow: hidden;
+	padding: 0;
+	vertical-align: middle;
+	margin-bottom: 0;
 }
 .jumbotron>div {
 	font-weight:400 ;
@@ -121,7 +127,6 @@ h2{
 }
 .jumbotron2 {
 	position: relative;
-	top: 8.55vw;
 	height:20vw ;
 	color: rgb(255, 255, 255);
 	width: 100%;
@@ -148,7 +153,6 @@ h2{
 }
 .jumbotron4 {
 	position: relative;
-	padding-top: 3.6vw;
 	top: 8.55vw;
 	height:16vw ;
 	color: rgb(255, 255, 255);
@@ -161,8 +165,7 @@ h2{
 }
 .jumbotron5 {
 	position: relative;
-	padding-top: 3.6vw;
-	top: 8.55vw;
+	margin-top: 8.6vw;
 	height:20vw ;
 	color: rgb(255, 255, 255);
 	width: 100%;
@@ -178,8 +181,6 @@ h2{
 }
 .jumbotron6 {
 	position: relative;
-	padding-top: 3.6vw;
-	top: 8.55vw;
 	height:40vw ;
 	color: rgb(255, 255, 255);
 	width: 100%;
@@ -210,9 +211,9 @@ h2{
 	right: 0px;
 }
 #partners{
+	display: block;
 	width: 55.3vw ; 
 	margin: 0 auto;
-	display: block;
 	
 }
 #emailid{
@@ -234,6 +235,9 @@ h2{
 	padding-left: 7.32vw;
 
 }
+.footer4{
+	height: 30vw;
+}
 #Subscribe{
 	position: relative;
 	right: 0;
@@ -251,7 +255,9 @@ h2{
 	color: #ffffff;
  
 }
-
+#p1{
+	padding-top: 2rem;
+}
 .fa-4x{
 font-size: 1.7vw;
 color: #61327C;
@@ -286,9 +292,7 @@ color: #61327C;
 	margin: 0 auto;
 	width: 16.8vw;
 }
-.ffooter{
-padding-top: 3vw;
-}
+
 .IEEE{
 	position: absolute;
 	clear: right;
@@ -301,42 +305,82 @@ padding-top: 3vw;
 	max-width: 29vw;
 	margin-bottom: 14.64vw;
 }
-@media (max-width: 767.98px)  {
 
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ /* --------------Mobile CSS -------------*/
+ 
+@media (max-width: 767.98px)  {
+	.navbar-expand-sm{
+		background-color: #22B8A3;
+	}
+	.navbar-dark {
+		background-color:#22B8A3;
+	} 
+
+	.navbar{
+		padding: 0;
+	}
+	.bi{
+		color: rgba(255, 255, 255, 0.678);
+		font-size: 1.5rem;
+	}
+	.navbar-toggler{
+		margin-right: 10px;
+		border :0
+	}
+	.navbar-brand{
+		padding-left: 20px;
+	}
+	#list{
+		background: #22B8A3;
+	}
+	.nav-item {
+		padding : 5px 0px 10px 20px  ; 
+	}
+	.Ex-Logo{
+		width: 10rem;
+		padding-bottom: 0.1vw;
+	}
 	#navbar{
+		background-color: #22B8A3;
 		transition: 0.4s ;
-		height: 5rem;
+		height: 5.188rem;
 	}
 	#navbar #logo {
 		transition: 0.4s;
-	
+			
 	}
 	.row{
 		text-align: center;
 	}
-
+	
 	h1{
 		line-height: 3rem;
 		color: white;
 		font-size: 2.2rem;
 	}
 	h6{
-		font-size: 1rem;
-		line-height: 1.2rem;
+		font-size: 1.3rem;
+		line-height: 1.9rem;
 	}
 	h5{
 		font-size: 1.2rem;
 		line-height: 1.4rem;
 	}
 	h4{
-		font-size: 2rem;
+		font-size: 1.2rem;
 	}
 	h2{
 		font-size: 2.5rem;
 	}
 	.jumbotron {
 		position: relative;
-		top: 6.5vw;
 		height:30rem ;
 		color: rgb(255, 255, 255);
 		width: 100%;
@@ -353,29 +397,28 @@ padding-top: 3vw;
 		color: rgb(255, 255, 255);
 		width: 100%;
 		background-color:#61327C ;
+		padding-top: 25px;
 	}
 	.jumbotron2>div {
 		font-weight:300 ;
-		font-size:3.58vw ;
+		font-size:5rem ;
 	}
 	.jumbotron3 {
 		position: relative;
-		height:25vw ;
+		height:31.5rem ;
 		color: rgb(255, 255, 255);
 		width: 100%;
 		background-color:#22B8A3 ;
-		background-size: cover;
-		overflow: visible;
+		padding-top: 25px;
 	}
 	.jumbotron3>div {
 		font-weight:300 ;
-		font-size:3.58vw ;
+		font-size:5rem ;
 	}
 	.jumbotron4 {
 		position: relative;
-		padding-top: 3.6vw;
-		top: 8.55vw;
-		height:16vw ;
+		padding-top: 3rem;
+		height:20rem ;
 		color: rgb(255, 255, 255);
 		width: 100%;
 		background-color:#22B8A3 ; 
@@ -386,9 +429,8 @@ padding-top: 3vw;
 	}
 	.jumbotron5 {
 		position: relative;
-		padding-top: 3.6vw;
-		top: 8.55vw;
-		height:20vw ;
+		padding-top: 3rem;
+		height:20rem ;
 		color: rgb(255, 255, 255);
 		width: 100%;
 		background-color:#22B8A3 ; 
@@ -403,25 +445,25 @@ padding-top: 3vw;
 	}
 	.jumbotron6 {
 		position: relative;
-		padding-top: 3.6vw;
-		top: 8.55vw;
-		height:40vw ;
+		height:20rem ;
+		color: rgb(255, 255, 255);
+		width: 100%;
+		background-color:#22B8A3 ; 
+	}
+	.jumbotron7 {
+		position: relative;
+		height:55rem ;
 		color: rgb(255, 255, 255);
 		width: 100%;
 		background-color:#22B8A3 ; 
 	}
 	.jumbotron6>div {
 		font-weight:300 ;
-		font-size:4vw ;
 	}
-	.row-header {
-		margin: 0px;
-		margin-top:7rem ;
-	}
-	
 	.container{
 		max-width: 100%;
 		padding: 0;
+		overflow: hidden;
 	}
 	.btn-primary{
 		background-color: #61327C;
@@ -462,4 +504,151 @@ padding-top: 3vw;
 		line-height: 0.8rem;
 		color: #ffffff;
 	}
+	.br{
+		display: block;
+	}
+	.verticalImgs{
+		display: none;
+	}
+	#about{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.sidepaddings{
+		padding-left: 20px;
+		padding-right: 20px;	
+	}
+	#watch{
+		background-color: #61327C;
+		border: none;
+		border-radius: 500px;
+	}
+	.btn-primary{
+		background-color: #61327C;
+		border: none;
+		width: 13.75rem;
+		height: 2.7rem;
+		border-radius: 500px;
+		margin-top: 0;
+	}
+	#b1{
+		height: 2.5rem;
+		margin-top: 1rem;
+		justify-content: center;
+		vertical-align: middle;
+
+	}
+	#watch>.btn-primary:hover{
+		background-color:rgb(138, 74, 175);
+		border: none;
+		box-shadow: #2F455C ;
+	}
+	.network{
+		display: inline-block;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	.footer{
+		height: 22.813rem;
+	}
+	.footer2{
+		height:27rem;
+	}
+	.footer3{
+		padding-left: 7.32vw;
+	
+	}
+	.footer4{
+		height: 40rem;
+	}
+	#Subscribe{
+		position: relative;
+		margin: 0 auto;
+		float: none;
+		clear: none;
+		width: 11rem;
+		height:2.25rem ;
+	}
+	.form-control{
+		float: none;
+		display: inline-block;
+		font-size: 1rem;
+		
+	}
+	#emailid{
+		border-radius: 500px;
+		width: 19.8rem;
+		height: 2.5rem ;
+	}
+	.cir{
+		color: #ffffff;
+	 
+	}
+	
+	.fa-4x{
+	font-size: 1.5rem;
+	color: #61327C;
+	}
+	.fa-4x:hover{
+		color: #22B8A3;
+	}
+	.btn-secondary{
+		background-color: #22B8A3;
+		border: none;
+		width: 13.375rem;
+		height:2.813rem;
+		font-size: 110%;
+		border-radius: 500px;
+	}
+	.btn-secondary:hover{
+		background-color:#1f9989;
+		border: none;
+		box-shadow: #2F455C ;
+	}
+	.footertext1{
+		color: #494949;
+	}
+	.footertext{
+		color: #494949;
+		line-height: 1.8rem;
+	}
+	.footertext:hover{
+		color: #000000;
+		text-decoration: none;
+	}
+	.FooterLogos{
+		
+		padding-top: 40px;
+		margin: 0 auto;
+		width: 9.633rem;
+	}
+	.ffooter{
+	padding-top: 3vw;
+	}
+	.IEEE{
+		position: relative;
+		clear: none;
+		float: none;
+		width: 7.4rem;
+		padding-bottom: 20px;
+	}
+	.tems{
+		width: 15rem;
+		align-items: center;
+		margin: 20px auto;
+		max-width:200px;
+	}
+	
+	#padding{
+		padding-top: 3rem;	
+	}
+	#p1{
+		padding-top: 1rem;
+	}
+	#gc21{
+		padding-top: 20px;
+	}
   }
+
+
