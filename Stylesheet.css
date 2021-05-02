@@ -662,11 +662,19 @@ color: #61327C;
 
   @media (max-width: 1000px)  {
 	nav a {
-		font-size: 0.8rem;
+		font-size: 0.75rem;
 		
 	}
 
 }
+@media (max-width: 770)  {
+	nav a {
+		font-size: 0.5rem;
+		
+	}
+
+}
+
 @media (max-width: 400px)  {
 	nav a {
 		font-size: 0.8rem;
