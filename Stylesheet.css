@@ -22,8 +22,11 @@ body {
 	vertical-align: text-bottom;
 }
 .navbar-dark {
-	background-color:#22B8A3;
-
+	background-color:rgba(34, 184, 163,0.85);
+	backdrop-filter: saturate(180%) blur(20px); 
+	-webkit-backdrop-filter: saturate(180%) blur(20px); 
+	background-blend-mode: multiply;
+	
 } 
 #navbar{
 	transition: 0.4s ;
