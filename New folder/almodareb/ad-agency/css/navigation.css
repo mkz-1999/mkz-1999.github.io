@@ -8,6 +8,9 @@ author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
 -----------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&display=swap');
+
 .ares.tparrows {
   cursor:pointer;
   background:#fff;
@@ -758,8 +761,7 @@ opacity:1
     font-size:13px;
     font-weight:700;
     text-transform:uppercase;
-    font-family:"Roboto Slab"
-    margin-bottom:5px;
+    margin-bottom : 5px;
 }
 
 .erinyen .tp-tab-desc {
@@ -2711,4 +2713,8 @@ opacity:1
 
 .dark-slider .hoxan .tp-bullet:not(:last-child) .tp-line{
     background: #4d4d4d;
+}
+*{
+  font-family: 'Changa', sans-serif;
+
 }

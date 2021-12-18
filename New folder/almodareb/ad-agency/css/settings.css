@@ -130,3 +130,7 @@ website:   	http://www.themepunch.com
 .rs-beforeafter-pointers .rs-video-beforeafter * {
     pointer-events: none;
 }
+*{
+    font-family: 'Changa', sans-serif;
+
+}

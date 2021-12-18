@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&display=swap');
+
+*{
+    font-family: 'Changa', sans-serif;
+    
+}
+
+
 html {
     scroll-behavior: smooth;
+    font-family: 'Changa', sans-serif;
   }
 .zbtn::after{
     background-color: #c52126;
@@ -130,3 +139,14 @@ ul.social-icons li a, ul.social-icons-simple li a{
     color: rgb(0, 0, 0) !important ; 
     background: rgb(255, 187, 187) !important ;
   }
+  *{
+    font-family: 'Changa', sans-serif;
+
+}
+.Ardic{
+    direction: rtl;
+}
+.fab {
+    font-family:"Font Awesome 5 Brands" !important;
+}
+

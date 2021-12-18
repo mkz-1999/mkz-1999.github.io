@@ -10,6 +10,7 @@ author:		themepunch
 email:     	info@themepunch.com
 website:   	http://www.themepunch.com
 -----------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&display=swap');
 
 * {
     -webkit-box-sizing: border-box;
@@ -5806,4 +5807,8 @@ tp-caption.Team-Thumb,
 
 .tp-caption.Photography-Menuitem:hover,.Photography-Menuitem:hover {
 	background-color:rgba(241,195,15,0.65);
+}
+*{
+    font-family: 'Changa', sans-serif;
+
 }

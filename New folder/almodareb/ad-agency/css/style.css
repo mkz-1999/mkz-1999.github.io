@@ -34,21 +34,27 @@
     Google fonts
 ====================================== */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
-
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&display=swap');
+
+
 
 .font-primary {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Changa', sans-serif !important;
 }
 .font-secondary {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Changa', sans-serif !important;
 }
+*{
+    font-family: 'Changa', sans-serif !important;
 
+}
 /* ===================================
     General
 ====================================== */
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'Changa', sans-serif;
     font-size: 15px;
     color: #666666;
     font-weight: 300;
@@ -79,7 +85,7 @@ section, .section-padding {position: relative; padding: 7.5rem 0; overflow: hidd
     padding: 7.5rem 0 4rem;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Changa', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
     line-height: 1;
@@ -881,7 +887,7 @@ nav .btn-setting {
 }
 
 .navbar-top-default .navbar-nav .nav-link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Changa', sans-serif;
     font-size: 15px;
     font-weight: 500;
     color: #ffffff;
@@ -1162,7 +1168,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
 }
 
 .side-nav .navbar-nav .nav-link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Changa', sans-serif;
     display: inline-table;
     color: #fff;
     padding: 10px 0 10px 0 !important;
@@ -1415,7 +1421,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
     top: 43% !important;
 }
 .awaza .tp-bullet .tp-count {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Changa', sans-serif;
     font-size: 14px;
     position: relative;
 }
@@ -1641,7 +1647,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
     text-align: center;
 }
 .main-title h5 {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Changa', sans-serif;
     font-weight: 400;
     margin-bottom: 1.1rem;
     color: #ffffff;
@@ -1686,7 +1692,8 @@ header.header-appear .navbar-top-default .header-social a:hover {
     margin-bottom: -153px;
 }
 .about ul li {
-    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'Changa', sans-serif;
     font-size: 16px;
     display: flex;
     color: #fff;
@@ -2166,7 +2173,7 @@ ul.social_icon li a.google:focus {
 }
 .dollar {
     position: absolute;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Changa', sans-serif;
     font-size: 20px;
     transform: translateX(-95%);
     top: 10px;
@@ -2176,8 +2183,9 @@ ul.social_icon li a.google:focus {
 color: #ffffff;
 }
 .price h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 62px;
+
+    font-family: 'Changa', sans-serif;
+        font-size: 62px;
     font-weight: 300;
     color: #ffffff;
     margin-bottom: 0;
@@ -2194,8 +2202,8 @@ color: #ffffff;
     background: #202020;
 }
 .price span.month{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-family: 'Changa', sans-serif;
+        font-size: 15px;
     font-weight: 400;
     color: #ffffff;
     text-transform: capitalize;
@@ -2283,8 +2291,7 @@ color: #ffffff;
 ====================================== */
 
 .section-padding .col-lg-12 h5  {
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Changa', sans-serif;}
 .testimonial-two {
     background: #202020;
     border-radius: 10px;
@@ -3126,6 +3133,11 @@ ul.rounded li::before {
     background-color: #f1c30f;
     animation: dot-1-move 2s ease infinite, index 6s -2s ease infinite;
 }
+*{
+    font-family: 'Changa', sans-serif;
+
+}
+
 
 @keyframes dot-3-move {
     20% {transform: scale(1)}
@@ -3553,4 +3565,7 @@ ul.rounded li::before {
     .side-menu {
         width: 370px;
     }
+}
+.fab {
+    font-family:"Font Awesome 5 Free" ;
 }

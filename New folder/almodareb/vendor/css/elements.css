@@ -52,6 +52,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&display=swap');
+
+
 
 /* ===================================
    Heading Content
@@ -2889,7 +2892,7 @@ header.mega-elements  .fixed-menu.navbar-top-default .header-social a:hover {
     font-weight: 700;
     content: '\f061';
     color: #aac0e4;
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Free" !important;
 }
 
 @keyframes scale {
@@ -3789,7 +3792,7 @@ header.mega-elements  .fixed-menu.navbar-top-default .header-social a:hover {
 }
 
 .ui-block-15.about ul li:before{
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Free" !important;
     padding-right: 15px;
     font-weight: 700;
     content: '\f061';
@@ -7582,7 +7585,7 @@ section.ui-block-25 {
 }
 
 .ui-block-43.about ul li:before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Free" !important;
     padding-right: 15px;
     font-weight: 700;
     content: '\f061';
@@ -11322,7 +11325,7 @@ section.ui-block-25 {
     opacity: .1;
     top: 100px;
     left: 30px;
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Free" !important;
 }
 
 .ui-block-21.stats-sec .main-color {
@@ -25351,7 +25354,7 @@ section,.section-padding {position: relative;padding: 7.5rem 0;overflow: hidden;
 }
 
 .ui-block-21.reviews #testimonial-slider-new::after{
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Free" !important;
     font-weight: 900;
     content: "\f10d";
     position: absolute;
@@ -27040,7 +27043,7 @@ section,.section-padding {position: relative;padding: 7.5rem 0;overflow: hidden;
 
 .ui-block-16.quote .quote-wrapper h3::before {
     content: "\f10d";
-    font-family: "Font Awesome 5 Free", serif;
+    font-family: "Font Awesome 5 Free", serif !important;
     font-weight: 900;
     font-size: 20px;
     position: absolute;
@@ -27051,7 +27054,7 @@ section,.section-padding {position: relative;padding: 7.5rem 0;overflow: hidden;
 
 .ui-block-16.quote .quote-wrapper h3::after {
     content: "\f10e";
-    font-family: "Font Awesome 5 Free", serif;
+    font-family: "Font Awesome 5 Free", serif !important;
     font-weight: 900;
     font-size: 20px;
     position: absolute;
@@ -28020,7 +28023,7 @@ section,.section-padding {position: relative;padding: 7.5rem 0;overflow: hidden;
 }
 
 .ui-block-06.footer ul.links li a::before {
-    font-family: "Font Awesome 5 Free", serif;
+    font-family: "Font Awesome 5 Free", serif !important;
     font-weight: 900;
 }
 
@@ -32892,6 +32895,10 @@ section.main-page {position: relative; padding: 7.5rem 0; overflow: hidden;}
     text-align: left;
 
 }
+*{
+    font-family: 'Changa', sans-serif;
+
+}
 
 @media (max-width: 767px){
     .ui-block-09.typography .heading{
@@ -33195,4 +33202,11 @@ section.main-page {position: relative; padding: 7.5rem 0; overflow: hidden;}
     .equal-padding-typography{
         padding: 4.5rem 0;
     }
+}
+*{
+    font-family: 'Changa', sans-serif;
+
+}
+.fab {
+    font-family:"Font Awesome 5 Free" ;
 }
