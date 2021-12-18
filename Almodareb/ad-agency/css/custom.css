@@ -130,3 +130,6 @@ ul.social-icons li a, ul.social-icons-simple li a{
     color: rgb(0, 0, 0) !important ; 
     background: rgb(255, 187, 187) !important ;
   }
+  #map{
+    height: 464px;
+  }
