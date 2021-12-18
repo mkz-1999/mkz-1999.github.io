@@ -146,6 +146,9 @@ ul.social-icons li a, ul.social-icons-simple li a{
 .Ardic{
     direction: rtl;
 }
+.Endic{
+    direction: ltr;
+}
 .fab {
     font-family:"Font Awesome 5 Brands" !important;
 }
