@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+  }
+.zbtn::after{
+    background-color: #c52126;
+}
+.side-menu.center{
+    background-color:#c52126 ;
+}
+.quarter-circle {
+    background-color:white ;
+}
+.menu_bars span, .menu_bars2 span{
+    background: black;
+}
+::-webkit-scrollbar-thumb{
+    background: #c52126 ;
+}
+::-webkit-scrollbar-track {
+background: white;
+}
+.ui-block-49.services-sec .services-details .heading{
+    color: #c52126 ; 
+}
+.ui-block-49.services-sec .services-details .detail-text{
+    color: rgb(44, 44, 44);
+    font-weight:500 ;
+
+}
+.ui-block-49 .btn.our-blue:hover{
+    color: white;
+    background:#c52126 ;
+    border: 0;
+}
+.ui-block-49 .btn.our-blue{
+    background:#2c2c2c; ;
+    color: white;
+    border: 0;
+}
+
+.ui-block-49.services-sec .our-services .service-card{
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+     border-radius: 10px;
+
+}
+.ui-block-49.services-sec .our-services .service-card .image-holder i{
+    color: #c52126;
+}
+.ui-block-49.services-sec .our-services .service-card .service-card-heading{
+    color: #c52126;
+
+}
+.ui-block-49.services-sec .our-services .service-card:hover .image-holder i{
+    color: white;
+}
+.ui-block-49.services-sec .our-services .service-card:hover .service-card-heading{
+    color: white;
+
+}
+.ui-block-15.blog .btn.btn-blue{
+    background:#c52126 ;
+    border-color:#c52126 ;
+}
+.ui-block-15.blog .btn.btn-blue:hover{
+    background:#ffffff ;
+    border-color:#ffffff ;
+    color: #c52126;
+}
+.dot-1{
+    background-color:#c52126 ;
+}
+.dot-2{
+    background-color:#2c2c2c ;
+
+}
+.dot-3{
+    background-color: white;
+
+}
+hr {
+    border-color: rgba(33, 35, 38, 0.0);
+}
+.ui-block-08.about .green_rectangle{
+    background-color: rgb(197, 33, 38);
+}
+.overlay {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-image: -webkit-linear-gradient(to right, #ffda00aa 0%, #ffab02aa 100%);
+    background-image: -moz-linear-gradient(to right, #ffda00aa 0%, #ffab02aa 100%);
+    background-image: -ms-linear-gradient(to right, #ffda00aa 0%, #ffab02aa 100%);
+    background-image: -o-linear-gradient(to right, #ffda00aa 0%, #ffab02aa 100%);
+    background-image: linear-gradient(to right, #ffda00aa 0%, #ffab02aa 100%);
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.overlay-blue {
+    background: rgb(197, 33, 38,0.6);
+    z-index: 1;
+    visibility: visible;
+}
+.gallery-hvr .opens::before, .shopping-box .overlay .opens::before{
+    background: #2c2c2c;
+}
+.shopping-box:hover h4>a, .shopping-box:focus h4>a{
+    color: rgb(197, 33, 38);;
+}
+.shopping-box .price-product{
+    color: rgb(197, 33, 38);
+}
+ul.social-icons li a::before, ul.social-icons-simple li a::before{
+    background: none;
+}
+ul.social-icons li a, ul.social-icons-simple li a{
+    border: none;
+}
+
+.btn-alt, .btn-alt:hover{
+    background: #2c2c2c !important ; 
+    color: white;
+    outline: none;
+}
+::selection {
+    color: rgb(0, 0, 0) !important ; 
+    background: rgb(255, 187, 187) !important ;
+  }
