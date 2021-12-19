@@ -130,6 +130,28 @@ ul.social-icons li a, ul.social-icons-simple li a{
     color: rgb(0, 0, 0) !important ; 
     background: rgb(255, 187, 187) !important ;
   }
-  #map{
+  #map3{
+    height: 415px;
+  }
+  #map2{
     height: 464px;
+  }
+  #map{
+    height: 415px;
+  }
+  .leaflet {
+    z-index: 0 !important;
+
+  }
+  .leaflet-pane{
+      z-index: 0 !important;
+  }
+  .leaflet-control{
+    z-index: 0 !important;
+  }
+  .leaflet-top{
+    z-index: 0 !important;
+  }
+  .leaflet-bottom{
+    z-index: 0 !important;
   }

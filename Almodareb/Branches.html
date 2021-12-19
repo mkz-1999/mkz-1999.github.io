@@ -237,7 +237,9 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 p-0 col-map box-shadow-map">
-                <div id="google-map" class="bg-light-gray map"></div>
+                <div id="" class="bg-light-gray map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14469.53172329582!2d46.710222!3d24.953083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb56af8bb20ddfb7f!2zMjTCsDU3JzExLjEiTiA0NsKwNDInMzYuOCJF!5e0!3m2!1sen!2sus!4v1639873447146!5m2!1sen!2sus" width="600" height="415" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
         </div>
     </div>
@@ -278,7 +280,9 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 p-0 col-map box-shadow-map">
-                <div id="map" class="bg-light-gray map"></div>
+                <div id="" class="bg-light-gray">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15159.390645573163!2d42.808635!3d18.216923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15fb58c8d6ca4cd7%3A0x4f8c44f95ee56b37!2sKing%20Khalid%20Rd%2C%20Al%20Runah%2C%20Ahad%20Rafidah%20Saudi%20Arabia!5e0!3m2!1sen!2sus!4v1639873391936!5m2!1sen!2sus" width="600" height="464" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
         </div>
     </div>
@@ -301,10 +305,6 @@
 
                         <!--Address-->
                         <p class="mb-3">Yanbu - Al Waha - King Abdulaziz Road
-
-
-
-
                         </p>
 
                         <!--Phone-->
@@ -321,7 +321,10 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 p-0 col-map box-shadow-map">
-                <div id="google-map" class="bg-light-gray map"></div>
+                <div id="" class="bg-light-gray">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14566.38911033365!2d38.084649000000006!3d24.115654!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15b906726abe5487%3A0xfca35af8e6a3a7eb!2z2LfYsdmK2YIg2KfZhNmF2YTZgyDYudio2K8g2KfZhNi52LLZitiy2IwgWWFuYnUgQWwgQmFociBTYXVkaSBBcmFiaWE!5e0!3m2!1sen!2sus!4v1639873192728!5m2!1sen!2sus" width="600" height="415" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                </div>
             </div>
         </div>
     </div>
@@ -463,7 +466,8 @@
  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
-   <script>
+
+   <!-- <script>
 
 	var map = L.map('map').setView([51.505, -0.09], 13);
 
@@ -488,6 +492,57 @@
 	map.on('click', onMapClick);
 
 </script>
+   <script>
+
+	var map2 = L.map('map2').setView([51.505, -0.09], 13);
+
+	var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox/streets-v11',
+		tileSize: 512,
+		zoomOffset: -1
+	}).addTo(map2);
+
+
+
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent('You clicked the map at ' + e.latlng.toString())
+			.openOn(map2);
+	}
+
+	map2.on('click', onMapClick);
+
+</script>
+
+<script>
+
+	var map3 = L.map('map3').setView([51.505, -0.09], 13);
+
+	var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox/streets-v11',
+		tileSize: 512,
+		zoomOffset: -1
+	}).addTo(map3);
+
+
+
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent('You clicked the map at ' + e.latlng.toString())
+			.openOn(map3);
+	}
+
+	map3.on('click', onMapClick);
+
+</script> -->
 
 </body>
 </html>
