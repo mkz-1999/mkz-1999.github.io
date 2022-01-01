@@ -1,0 +1,91 @@
+/*-- Use For Custom Styling --*/
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&display=swap');
+
+div{
+    font-family: 'changa', Courier, monospace !important ; 
+}
+.container{
+    max-width: 1200px;
+}
+.r2l{
+direction: rtl;
+}
+.navbar .navbar-nav {
+    margin-right: 18rem;
+    margin-left: 0;
+}
+.navbar .navbar-nav .nav-link{
+    margin-left:18px ;
+    margin-right :18px ;
+}
+.navbar .navbar-nav .nav-link:after{
+    margin-left:0px ;
+    margin-right :0px ;
+}
+.dropdown-menu{
+    right: 0;
+    left: auto;
+    min-width: 10px;
+}
+.main-page h1, .main-page h2, .main-page h3, .main-page h4, .main-page h5, .main-page h6 {
+    font-family: 'Changa', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+#ceo{
+    max-width: 300px;
+}
+.ui-block-11.portfolio-5 h5{
+    font-family:changa, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.list-unstyled{
+    padding: 0;
+    margin: 0;
+    font-size: 1.10rem;
+}
+#BrandSm{
+    position: absolute;
+    width: 100%;
+    left: 10px;
+    
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+@media (min-width:1024px) {
+    .navbar .navbar-nav .nav-link{
+        margin-left:10px ;
+        margin-right :10px ;
+    }
+    .navbar .navbar-nav .nav-link{
+        margin-left:10px ;
+        margin-right :10px ;
+    }
+    .navbar .navbar-nav{
+        margin-left:0px ;
+        margin-right :0px ;
+    }
+}
+.ui-block-11.portfolio-5 .gallery-5 .item-overlay{
+   background:rgba(133, 53, 128,0.8) !important;
+}
+.ui-block-07.team-sec .team-detail .social-icon{
+    background:rgba(133, 53, 128,1) !important;
+    
+
+
+}
+.ui-block-07.team-sec .team-detail .social-icon li a i{
+    color:#8bc53f !important;
+}
+
+@media (max-width: 575.98px){
+    .slider-img{
+        height: 100vh !important;
+        width: fit-content !important;
+    }
+    .tp-heading{
+        font-size:50px !important;
+    }
+    .mysection{
+        padding-bottom: 0 !important;
+    }
+}
